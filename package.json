@@ -1,0 +1,23 @@
+{
+  "name": "product-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meccacodes/product-list.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meccacodes/product-list/issues"
+  },
+  "homepage": "https://github.com/meccacodes/product-list#readme",
+  "dependencies": {
+    "faker": "^5.5.3"
+  }
+}
