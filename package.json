@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -18,6 +19,12 @@
   },
   "homepage": "https://github.com/meccacodes/product-list#readme",
   "dependencies": {
-    "faker": "^5.5.3"
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "faker": "^5.5.3",
+    "mongoose": "^8.13.2"
+  },
+  "devDependencies": {
+    "@types/faker": "^6.6.8"
   }
 }
