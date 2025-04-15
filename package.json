@@ -1,0 +1,41 @@
+{
+  "name": "product-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meccacodes/product-list.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meccacodes/product-list/issues"
+  },
+  "homepage": "https://github.com/meccacodes/product-list#readme",
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.6.1",
+    "@types/react": "^19.1.1",
+    "@types/react-dom": "^19.1.2",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "faker": "^5.5.3",
+    "mongoose": "^8.13.2",
+    "next": "^15.3.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-redux": "^9.2.0"
+  },
+  "devDependencies": {
+    "@types/faker": "^6.6.8",
+    "@types/node": "^22.14.1",
+    "typescript": "^5.8.3"
+  }
+}

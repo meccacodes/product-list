@@ -1,0 +1,38 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 2rem;
+  align-items: center;
+}
+
+.pageLink {
+  padding: 0.5rem 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background: white;
+  color: #374151;
+  text-decoration: none;
+  min-width: 2.5rem;
+  text-align: center;
+}
+
+.pageLink:hover {
+  background: #f3f4f6;
+}
+
+.active {
+  background: #3b82f6;
+  color: white;
+  border-color: #3b82f6;
+}
+
+.active:hover {
+  background: #2563eb;
+}
+
+.ellipsis {
+  padding: 0 0.5rem;
+  color: #6b7280;
+} 
